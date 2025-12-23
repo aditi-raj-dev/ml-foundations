@@ -38,11 +38,11 @@ size=1000000
 vec=np.arange(size)
 
 #using loop
-start=time.time()
+start=time.time() #stores tsrting time before execution of large program
 loop_sum=0
 for x in vec:
   loop_sum+=x
-end=time.time()
+end=time.time()# end time after execution of large data problem 
 loop_time=end-start
 
 #using numpy vectorized sum
@@ -54,3 +54,5 @@ vec_time=end-start
 print(f"loop time: {loop_time:.5f} seconds , Sum:{loop_sum}")
 print(f"vectorized time: {vec_time:.5f} seconds , Sum:{vec_sum}")
 
+# Vectorization avoids Python loops and runs faster using C-level operations
+# ML models rely on vectorized math for speed on large datasets
