@@ -12,7 +12,7 @@ print("multiplication:", a*b)
 print("division:", a/b)
 
 #broadcasting example(2D+1D)
-print("===BROADCASTING EXAMPLE ===")
+print("\n===BROADCASTING EXAMPLE ===")
 A=np.array([[1,2,3],[4,5,6]])
 B=np.array([1,0,-1])
 print("A: \n",A)
@@ -20,7 +20,7 @@ print("B: \n",B)
 print("A+B: \n",A+B)
 
 # AGGREGATION
-print("===AGGREGATION ===")
+print("\n===AGGREGATION ===")
 print("sum axis=0:", np.sum(A, axis=0))
 print("sum axis=1:", np.sum(A, axis=1))
 print("Mean:", np.mean(A))
