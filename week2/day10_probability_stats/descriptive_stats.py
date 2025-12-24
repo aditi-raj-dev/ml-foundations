@@ -31,7 +31,7 @@ print("Manual:", variance_manual)
 print("NumPy:", variance_np)
 
 # Standard Deviation
-std_manual = np.sqrt(variance_manual)
+std_manual = np.sqrt(variance_manual) # square root of variance is standard  deviation
 std_np = np.std(data)
 
 print("\nStandard Deviation")
