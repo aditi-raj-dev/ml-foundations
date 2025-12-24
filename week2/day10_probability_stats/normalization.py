@@ -4,7 +4,7 @@ data = np.array([10, 50, 80, 100])
 
 print("Original:", data)
 
-# Min Max
+#Min-Max (MinMax) normalization/scaling is a data preprocessing technique used to scale numerical features into a fixed range, usually [0, 1] (sometimes [-1,1]).
 min_val = np.min(data)
 max_val = np.max(data)
 minmax = (data - min_val) / (max_val - min_val)
