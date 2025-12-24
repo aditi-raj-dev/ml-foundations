@@ -1,8 +1,8 @@
-\# Day 10 — Probability \& Statistics for ML
+# Day 10 — Probability \& Statistics for ML
 
 
 
-\## What Probability Means in ML
+## What Probability Means in ML
 
 Probability in ML is not about coins and dice.
 
@@ -16,11 +16,11 @@ So probability helps ML handle uncertainty instead of guessing blindly.
 
 In ML:
 
-\- Data is noisy
+- Data is noisy
 
-\- Real world behaves randomly
+- Real world behaves randomly
 
-\- We cannot trust a single value
+- We cannot trust a single value
 
 So probability helps understand patterns in uncertainty.
 
@@ -30,7 +30,7 @@ So probability helps understand patterns in uncertainty.
 
 
 
-\## Mean vs Median
+## Mean vs Median
 
 Mean = average value
 
