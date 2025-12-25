@@ -15,3 +15,12 @@ Outliers destroy mean.
 Median survives.
 This is why ML preprocessing matters.
 """)
+
+## Why probability stabilizes ML?
+# Because ML assumes data follows a distribution.
+# When distributions are known , models become predictable and stable instead of guessing randomly.
+
+## Why randomness matters in datasets ?
+# Real - world data always has noise . Randomness helps models generalize instead of memorizing.
+# Without randomness , models would overfit and fail in real - world conditions .
+

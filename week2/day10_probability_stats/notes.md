@@ -91,7 +91,6 @@ Std dev is important in ML because:
 ---
 
 
-
 \## Gaussian Distribution
 
 Most real world data tends to form a bell curve.
@@ -143,6 +142,16 @@ Normalization:
 \- More stability
 
 \- Better accuracy
+
+
+
+
+Mean = central tendency
+Variance = how spread the data is
+Std dev= natural unit of spread
+Gaussian= appears because many small effects combine (central limit theorem)
+Normalization= keeps ML training stable
+
 
 
 

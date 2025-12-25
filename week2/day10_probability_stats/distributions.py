@@ -16,3 +16,16 @@ Because many small random effects combine together.
 Height, marks, IQ, noise, errors → all formed from many tiny influences.
 Central Limit Theorem makes this happen naturally.
 """)
+
+#Probability stabilizes ML because models assume data follows a distribution.
+
+#When we understand mean/varieance , we understand what "normal " data looks like.
+
+#This prevents randomness from misleading the model.
+
+#Randomness matters because real-world data is never perfect or deterministic.
+
+#Noise , measurement errors, environment changes = randomness.
+
+#ML learns patterns + handles randomness rather than breaking.
+
