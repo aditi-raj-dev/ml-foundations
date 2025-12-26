@@ -91,5 +91,5 @@ print(f"\nFinal with Noise → m = {m:.4f}, c = {c:.4f}, Loss = {final_loss:.6f}
 # 2) m and c will NOT become exactly 2 and 1
 # 3) Still, gradient descent finds the BEST POSSIBLE FIT LINE
 # This is EXACTLY how real machine learning works
-# Real world data always has noise, so models aim for BEST APPROXIMATION,
+# Real world data always has noise, so models aim for BEST APPROXIMATION.
 # not perfection.
