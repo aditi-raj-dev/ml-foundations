@@ -15,3 +15,5 @@ for i in range (10):
      grad=df(x)
      x=x-lr*grad
      print(f"Iter {i+1}: x={x:.4f},f(x)={f(x):.6f}")
+
+# Lower loss = better predictions. GD keeps adjusting w,b to reduce this error.

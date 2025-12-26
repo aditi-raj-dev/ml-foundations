@@ -40,3 +40,5 @@ for i in range (10):
       print(f"Iter {i+1}: w={w:.4f},f(w)={f(w):.6f}")
 
 print("NOTICE: VALUES JUMP WILDLY INSTEAD OF CONVERGING")
+# Loss decreases when we move opposite to gradient because gradient points toward increasing slope.
+# We want to go downhill → so we move in negative gradient direction.

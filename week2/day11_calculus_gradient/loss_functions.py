@@ -32,3 +32,5 @@ Big mistakes become  MUCH bigger.
 This makes the model learn harder when errors are large.
 """)
 
+# Loss tells how bad our model is performing. Higher loss = worse predictions.
+

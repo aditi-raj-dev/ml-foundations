@@ -25,4 +25,6 @@ for x in x_values:
    else:
            print("Meaning: Zero slope -> flat region (possible minimum/maximum)")
 
-   print("--------------")
+   print("--------------")`
+
+# Gradient shows steepest uphill direction. Moving opposite ensures we always move downhill toward minimum.
