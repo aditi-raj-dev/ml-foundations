@@ -63,9 +63,9 @@ m controls SLOPE (tilt of line)
 c controls SHIFT (how high/low the line is)
 
 Gradient tells:
-→ How wrong we are
-→ Which direction to move m and c
-→ How big the correction should be
+→  How wrong we are
+→  Which direction to move m and c
+→  How big the correction should be
 
 Each epoch:
 We slightly adjust m and c
