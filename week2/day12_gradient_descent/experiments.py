@@ -93,3 +93,7 @@ print(f"\nFinal with Noise → m = {m:.4f}, c = {c:.4f}, Loss = {final_loss:.6f}
 # This is EXACTLY how real machine learning works
 # Real world data always has noise, so models aim for BEST APPROXIMATION,
 # not perfection.
+
+
+## Small learning rate -> slow but safe learning
+## Large learning rate -> faster but may overshoot and diverge

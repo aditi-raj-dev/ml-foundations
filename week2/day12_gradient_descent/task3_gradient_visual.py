@@ -23,3 +23,6 @@ for epoch in range(epochs):
     c = c - lr * dc
 
     print(f"Epoch {epoch+1} | m={round(m,4)} | c={round(c,4)} | loss={round(loss,4)}")
+
+# Loss tells how wrong our predictions are .
+# Lower loss = better model= predictions closer to real values.

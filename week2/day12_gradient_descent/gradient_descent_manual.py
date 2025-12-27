@@ -48,5 +48,10 @@ for i in range(epochs):
     c = c - lr * dc
 
     if (i+1) % 5 == 0:
-        print(f"Epoch {i+1}: loss={loss:.4f}, m={m:.4f}, c={c:.4f}")
+        print(f"Epoch {i+1}: Loss={loss:.4f}, m={m:.4f}, c={c:.4f}")
+
+# Grdaient shows direction of steepest increase of loss.
+# We move in opposite direction (-gradient) to reduce loss
+
+
 
