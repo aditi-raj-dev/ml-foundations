@@ -47,7 +47,7 @@ for i in range (epochs):
     loss = mse(y, y_pred)
 
     if i % 10 == 0:
-        print(f"Epoch {i}: Loss={loss:.6f}, m={m:.4f}, c={c:.4f}")
+        print(f"Epoch {i}/{epochs}: Loss={loss:.6f}, m={m:.4f}, c={c:.4f}")
 
 print("\nFINAL RESULTS")
 print("m =", m)
@@ -63,9 +63,9 @@ m controls SLOPE (tilt of line)
 c controls SHIFT (how high/low the line is)
 
 Gradient tells:
-→  How wrong we are
-→  Which direction to move m and c
-→  How big the correction should be
+→ How wrong we are
+→ Which direction to move m and c
+→ How big the correction should be
 
 Each epoch:
 We slightly adjust m and c
@@ -73,3 +73,9 @@ Loss reduces
 Line becomes better
 Model "learns"
 """
+
+# Gradient tells us which direction to move to reduce loss
+# We update parameters opposite to gradient because we want to minimize loss
+
+# Intuition: Loss decreases because parameters move opposite to gradient direction
+
